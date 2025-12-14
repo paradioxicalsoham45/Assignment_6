@@ -1,0 +1,16 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "\"Testing Node Server\"",
+  "license": "ISC",
+  "author": "Soham Chitrao",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
